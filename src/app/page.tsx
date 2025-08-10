@@ -1,9 +1,11 @@
-import { Button } from "@/components/ui/button";
+"useclient";
+
+import {Header} from "../components/common/header";
+
+
 
 export default function Home() {
   return (
-    <div>
-      <Button className="bg-blue-500 px-5 text-white">Click me</Button>
-    </div>
+    <Header/>
   );
 }
